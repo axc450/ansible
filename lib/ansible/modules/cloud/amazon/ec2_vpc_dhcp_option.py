@@ -175,7 +175,7 @@ EXAMPLES = """
     tags:
       Name: google servers
       Environment: Test
-  state: absent
+    state: absent
 
 ## Associate a DHCP options set with a VPC by ID
 - ec2_vpc_dhcp_option:
